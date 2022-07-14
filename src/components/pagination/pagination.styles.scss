@@ -1,0 +1,11 @@
+.pagination {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &.side-buttons {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

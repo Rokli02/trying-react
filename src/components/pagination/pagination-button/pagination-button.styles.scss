@@ -1,0 +1,29 @@
+.pagination-btn {
+  padding: 8px 12px;
+  margin: 8px 2px;
+  border-radius: 8px;
+  border: none;
+  background-color: darkgray;
+  cursor: pointer;
+
+  &[disabled] {
+    cursor: default;
+  }
+
+  &:hover{ 
+    &:not([disabled]) {
+      background-color: rgb(180, 180, 180);
+    }
+  }
+
+  &:active {
+    &:not([disabled]) {
+      background-color: rgb(175, 175, 175);
+    }
+  }
+
+  &.active {
+    background-color: rgb(175, 175, 175);
+    box-shadow: 0px 0px 4px white;
+  }
+}

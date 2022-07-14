@@ -1,0 +1,14 @@
+.limit-picker {
+  text-align: center;
+  appearance: none;
+  border-radius: 8px 8px 2px 2px;
+  min-width: 5ch;
+  height: 30px;
+  line-height: inherit;
+  border: 2px solid rgb(54, 118, 229);
+  outline: none;
+  
+  &:hover {
+    background-color: rgb(245, 245, 245);
+  }
+}

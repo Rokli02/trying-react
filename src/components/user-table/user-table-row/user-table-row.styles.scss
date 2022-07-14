@@ -1,0 +1,23 @@
+.user-table-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-color: rgb(170, 170, 170);
+  inset: 0px;
+  
+  
+  .user-table-column {
+    padding: 12px 8px;
+    text-align: center;
+    cursor: default;
+    border-right: 2px solid rgba(128, 128, 128, 0.5);
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+  
+  &:nth-child(even) {
+    background-color: rgb(180, 180, 180);
+  }
+}
